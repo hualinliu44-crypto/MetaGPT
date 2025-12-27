@@ -1,0 +1,40 @@
+# Metagpt LLM provider config
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config.yaml.template
+
+# OpenAI: https://platform.openai.com/docs/guides/gpt
+# 推荐使用 gpt-4-turbo, gpt-4, gpt-3.5-turbo
+# 如果使用 Azure，请将 OPENAI_API_TYPE 设置为 azure
+# 更多细节请参考: https://github.com/geekan/MetaGPT/blob/main/docs/resources/llm_api_tutorial.md
+openai:
+  api_key: "sk-..." #  <--- 在这里填入您自己的 OpenAI API Key
+  # base_url: "https://api.openai.com/v1"  # 如果您需要使用代理，请取消本行的注释 '#'，并换成您的代理地址
+  # api_type: "openai" # "azure" or "openai"
+  # model: "gpt-4-turbo-preview" # or gpt-3.5-turbo
+  # pricing_plan: "" # pricing plan for your api, e.g. "pay-as-you-go" for Azure
+  # deployment_name: "" # deployment_name for azure endpoint
+  # api_version: "2023-12-01-preview"
+
+# Anthropic: https://docs.anthropic.com/claude/reference/getting-started-with-the-api
+# anothropic:
+#   api_key: "sk-ant-..."
+#   base_url: "https://api.anthropic.com"
+#   model: "claude-2.1"
+
+# Spark: https://www.xfyun.cn/doc/spark/Web.html
+# spark:
+#   app_id: "xxx"
+#   api_secret: "xxx"
+#   api_key: "xxx"
+#   model: "generalv3.5"
+
+# ZhipuAI: https://open.bigmodel.cn/dev/api
+# zhipuai:
+#   api_key: "xxx"
+#   model: "glm-4"
+
+# Google Gemini: https://ai.google.dev/docs
+# gemini:
+#   api_key: "xxx"
+#   model: "gemini-pro"
+
+# ... (其他模型的配置，您可以暂时不用管)
